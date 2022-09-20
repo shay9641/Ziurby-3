@@ -36,7 +36,9 @@ p {
   display: inline-block;
 }
 .button:hover {
-  color: rgb(96, 47, 221);
+  color: #00d5a6;
+  background-color: white;
+  font-weight: 700;
 }
 /* ---------------------------------- */
 /*HEADER                              */
@@ -48,7 +50,7 @@ header {
   width: 100%;
 }
 .header__main {
-  padding: 38px 204px 0 204px;
+  padding: 38px 204px 38px 204px;
 }
 
 .header__main ul {
@@ -69,7 +71,7 @@ header {
   margin-left: 50px;
 }
 .header__main li:hover {
-  border-bottom: 4px solid rgba(175, 45, 61, 0.848);
+  border-bottom: 2px solid white;
 }
 .header__main .logo {
   color: white;
@@ -77,7 +79,7 @@ header {
   font-weight: 600;
 }
 .header__main .logo:hover {
-  color: rgba(18, 167, 205, 0.786);
+  color: rgb(25, 209, 25);
 }
 
 /* ---------------------------------- */
@@ -187,16 +189,24 @@ hr {
   max-width: 460px;
   display: inline-block;
 }
-
-.third__section__text td {
-  padding-top: 13px;
+.third__section__text ul {
+  margin-top: 22px;
+  float: left;
+  max-width: 298px;
+  list-style-position: inside;
 }
-
-.third__section__text td span {
-  padding: 0 30px 0 9px;
-
+.third__section__text ul li::marker {
+  font-family: "fontawesome";
+  content: "\f058   ";
+  color: #00e3aa;
+  font-size: 18px;
+}
+.third__section__text li {
+  float: left;
   font-size: 16px;
   color: #33325f;
+  margin-right: 32px;
+  margin-bottom: 14px;
 }
 .third__section__text .fa-solid {
   color: #00e3aa;
@@ -233,7 +243,7 @@ footer {
   font-weight: 700;
 }
 .footer__top .logo:hover {
-  color: rgba(18, 167, 205, 0.786);
+  color: rgb(25, 209, 25);
 }
 .footer__top .images {
   display: inline-block;
