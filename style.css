@@ -126,7 +126,7 @@ header {
   display: inline-block;
 }
 .section__one__text p {
-  padding-bottom: 5px;
+  margin-bottom: 5px;
 }
 .section__one__text a {
   font-weight: 600;
@@ -159,7 +159,7 @@ header {
   display: inline-block;
 }
 .section__second__text p:first-of-type {
-  padding-bottom: 26px;
+  margin-bottom: 26px;
 }
 
 hr {
@@ -176,7 +176,6 @@ hr {
   font-weight: bold;
 }
 .section__second__text img {
-  vertical-align: 4px;
   max-width: 70px;
 }
 
@@ -260,10 +259,10 @@ footer {
   height: 40px;
   float: left;
   border: 1px solid #e7e8ea;
-  padding: 12px;
 }
 .footer__top .social-media-btn .fa-brands {
   color: #b9bdc3;
+  margin: 12px;
 }
 .footer__top .social-media-btn .fa-twitter:hover {
   color: #00acee;
@@ -276,7 +275,7 @@ footer {
 }
 .footer-copyright {
   border-top: solid 1px #e7e8ea;
-  padding: 22px 0 24px;
+  margin: 22px 0 24px;
 
   font-size: 11px;
   color: #999ea8;
