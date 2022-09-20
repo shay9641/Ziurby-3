@@ -234,6 +234,7 @@ footer {
 .footer__top {
   text-align: center;
   max-width: 1212px;
+  border-bottom: 2px solid #e7e8ea;
 }
 .footer__top .logo {
   float: left;
